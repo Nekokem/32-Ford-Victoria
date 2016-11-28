@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Ford2.ma
-//Last modified: Sat, Nov 26, 2016 11:45:18 AM
+//Last modified: Mon, Nov 28, 2016 08:30:13 AM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "CEB1B12F-CD44-D4C1-A3E1-0E89C3CF90E9";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 13.290436636683818 0.35266710352723685 36.774677456001392 ;
-	setAttr ".r" -type "double3" -0.93835236932085908 1463.3999999999571 -2.7074865932064364e-17 ;
+	setAttr ".t" -type "double3" 32.915984802282885 3.797890755487265 7.7570319862141215 ;
+	setAttr ".r" -type "double3" -6.9383523694324074 1527.7999999998171 -1.0356656047848498e-14 ;
 	setAttr ".rp" -type "double3" 0 -5.620504062164855e-16 7.7715611723760958e-16 ;
 	setAttr ".rpt" -type "double3" -1.5317658171522733e-15 1.1965498650382177e-15 2.6377757975960608e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
